@@ -133,7 +133,7 @@ const EditNoteForm = ({ note, users }) => {
                 <div className="form__row">
                     <div className="form__divider">
                         <label className="form__label form__checkbox-container" htmlFor="note-completed">
-                            WORK COMPLETE:
+                            Tarea Completada:
                             <input
                                 className="form__checkbox"
                                 id="note-completed"
@@ -145,7 +145,7 @@ const EditNoteForm = ({ note, users }) => {
                         </label>
 
                         <label className="form__label form__checkbox-container" htmlFor="note-username">
-                            ASSIGNED TO:</label>
+                            Asignado a:</label>
                         <select
                             id="note-username"
                             name="username"
@@ -157,8 +157,8 @@ const EditNoteForm = ({ note, users }) => {
                         </select>
                     </div>
                     <div className="form__divider">
-                        <p className="form__created">Created:<br />{created}</p>
-                        <p className="form__updated">Updated:<br />{updated}</p>
+                        <p className="form__created">Creado:<br />{created}</p>
+                        <p className="form__updated">Actualizado:<br />{updated}</p>
                     </div>
                 </div>
             </form>
